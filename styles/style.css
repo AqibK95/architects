@@ -316,7 +316,7 @@ footer{
         margin: 0;
         flex-direction: column;
     }
-   .header ul li {
+    ul {
         flex-direction: column;
         gap: 12px;
     }
@@ -324,14 +324,5 @@ footer{
         width: 29em;
         height: 19em;
     }
-    .features-1{
-        flex-direction: column;
-    }
-    .quick-images{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .quick-list{
-        align-items: center;
-    }
+
 }
